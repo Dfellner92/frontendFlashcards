@@ -7,7 +7,7 @@ function App() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
 
-  let index = String(Math.floor(Math.random() * 4) + 1);
+  let index = String(Math.floor(Math.random() * 20) + 1);
 
   console.log(index);
   useEffect(() => {
